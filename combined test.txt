@@ -1,8 +1,0 @@
-hog only for all
-.9761
-
-color only for all
-.9006
-
-combined for all
-.9671
