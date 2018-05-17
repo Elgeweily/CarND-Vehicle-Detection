@@ -1,0 +1,6 @@
+YCRCB and YUV are best (almost same)
+luv is less accurate
+0.98 for 16 x 16
+0.979 for 32 x 32 Much slower almost same results
+
+c=0.0001 got rid of shadows....0.001 shadows problem....0.00001 less accuracy
