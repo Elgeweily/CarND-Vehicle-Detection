@@ -56,7 +56,6 @@ def get_hog(img, orient, pix_per_cell, cell_per_block,
         features, hog_image = hog(img, orientations=orient, 
                                   pixels_per_cell=(pix_per_cell, pix_per_cell),
                                   cells_per_block=(cell_per_block, cell_per_block),
-                                  block_norm= 'L2-Hys',
                                   transform_sqrt=False, 
                                   visualise=vis, feature_vector=feature_vec)
         return features, hog_image
@@ -65,7 +64,6 @@ def get_hog(img, orient, pix_per_cell, cell_per_block,
         features = hog(img, orientations=orient, 
                        pixels_per_cell=(pix_per_cell, pix_per_cell),
                        cells_per_block=(cell_per_block, cell_per_block),
-                       block_norm= 'L2-Hys',
                        transform_sqrt=False, 
                        visualise=vis, feature_vector=feature_vec)
         return features
